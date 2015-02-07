@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="ButtonTheme" parent="android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/button</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+       </style>
+    
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <style name="progressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowBackground">@color/button</item>
+    </style>
+    <style name="CustomAlertDialogStyle">
+         <item name="android:bottomBright">@color/button</item>
+	    <item name="android:bottomDark">@color/button</item>
+	    <item name="android:bottomMedium">@color/button</item>
+	    <item name="android:centerBright">@color/button</item>
+	    <item name="android:centerDark">@color/button</item>
+	    <item name="android:centerMedium">@color/button</item>
+	    <item name="android:fullBright">@color/button</item>
+	    <item name="android:fullDark">@color/button</item>
+	    <item name="android:topBright">@color/button</item>
+	    <item name="android:topDark">@color/button</item>
+    </style>
+
+</resources>

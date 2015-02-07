@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="title_activity_login">Carpool</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_password">Salasana</string>
+    <string name="action_sign_in_register"><b>Kirjaudu</b></string>
+    <string name="action_sign_in_short">Kirjaudu</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Kirjaudutaan&#8230;</string>
+
+</resources>

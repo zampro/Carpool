@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layoutContainer"
+    android:background="@drawable/background" 
+    android:orientation="horizontal">
+    
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7">
+
+        <!-- This is the part that's 70% of the total width. I'm inserting a LinearLayout and buttons.-->   
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+				
+                <TextView
+		        android:id="@+id/hello_passenger"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:padding="10dp"
+		        android:text="@string/hello_d"
+		        android:textSize="30sp" />
+                
+				  	<EditText
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:background="@color/white"
+		                android:ellipsize="start"
+		                android:gravity="center_horizontal"
+				        android:id="@+id/search"
+				        android:padding="10dp"
+				    	android:layout_marginBottom="10dp"
+				        android:singleLine="true"
+				        android:hint="@string/search"/>
+				  	<Spinner
+				        android:id="@+id/spinner1"
+				        android:background="@color/white"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:padding="10dp"
+				    	android:layout_marginBottom="10dp"
+				    	android:textColor="#FF0000"
+				        android:prompt="@string/app_name"/>
+				        <!-- android:entries="@array/search_criteria" --> 
+				
+	            <Button
+			        android:id="@+id/btnSubmit"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:padding="10dp"
+				    android:layout_marginBottom="10dp"
+			        android:text="@string/submit" />
+			
+				<TextView
+				    android:id="@+id/routes_selected"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center"
+				    android:paddingBottom="10dp"
+				    android:text="@string/routes_selected"
+				    android:textSize="20sp" />
+			
+			    <ListView
+			        android:id="@+id/list"
+			        android:gravity="center"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"/> 
+
+            </LinearLayout>
+        <!-- 70% Width End-->
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15">
+    </RelativeLayout>
+</LinearLayout>

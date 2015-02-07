@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carpool</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="start">Lähtö</string>
+    <string name="end">Määränpää</string>
+    <string name="submit">Etsi</string>
+    <string name="title_activity_gmapsactivity">Reittikartta</string>
+    <string name="A">Oletko Kuski?</string>
+    <string name="B">Vai Matkustaja?</string>
+    <string name="choose"></string>
+    <string name="title_activity_add_route">Reitti manageri</string>
+    <string name="title_activity_choose_your_side">Kuski/Matkustaja?</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="gmapSend">Lähetä</string>
+    <string name="driver">Kuskin nimi</string>
+    <string name="date">Päivämäärä</string>
+    <string name="progress_delete">Poistetaan Reittiä</string>
+    <string name="passengerMarker">Matkustaja: </string>
+    <string name="search">Etsi&#8230;</string>
+    <string name="hello">Terve</string>
+    <string name="dodelete">Haluatko poistaa reitin?</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="accept">Hyväksy</string>
+    <string name="textMsg_1">Carpool App: Reitilläsi</string>
+    <string name="textMsg_2">on uusi matkustaja! Matkustajan nimi:  </string>
+    <string name="textMsg_3"> Käyttäjänimi</string>
+    <string name="textMsg_4">Carpool App: Kuski on hyväksynyt pyyntösi päästä kyytiin!</string>
+    <string name="progress_2">Haetaan reittejä&#8230;</string>
+    <string name="auth">Kirjaudutaan sisään&#8230;</string>
+    <string name="hello_d">Terve Kuski</string>
+    <string name="hello_p">Terve Matkustaja</string>
+    <string name="your_routes">Reittisi</string>
+    <string name="pick_time">Aseta aika</string>
+    <string name="pick_date">Aseta päivämäärä</string>
+    <string name="date"></string>
+    <string name="register">tai rekisteröidy</string>
+    <string name="reg_btn">Rekisteröidy</string>
+    <string name="prompt_firstname">Etunimi</string>
+    <string name="prompt_lastname">Sukunimi</string>
+    <string name="prompt_email">Sähköposti</string>
+    <string name="prompt_phone">Puhelinnumero</string>
+    <string name="prompt_loginuser">Käyttäjänimi</string>
+    <string name="prompt_username">Käyttäjänimi</string>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="button">#A1C1E6</color>
+    <color name="darker">#74AAE8</color>
+    <string name="routes_selected">Aktiiviset reittisi</string>
+    <string name="title_activity_lifts_available">Saatavilla olevat reitit</string>
+    <string name="title_activity_register">Rekisteröinti</string>
+
+</resources>
